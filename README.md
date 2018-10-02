@@ -18,3 +18,7 @@ For very little money (about 1/10th of the real BashBunny) you can make a clone 
 - Increased size of STORAGE to 256MB
 - Set an alias Q=QUACK (for better bunnyscript support)
 - Started adding a german keyboard layout
+
+## Cool ideas for the future:
+- User zero pi w to open a wifi hotspot and allow some kind of remote control
+- Add an i2c display
