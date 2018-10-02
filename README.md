@@ -19,6 +19,15 @@ For very little money (about 1/10th of the real BashBunny) you can make a clone 
 - Set an alias Q=QUACK (for better bunnyscript support)
 - Started adding a german keyboard layout
 
+## GPIO-Layout:
+(specified in bin/bunny-launcher.py)
+- LED_RED to GPIO5
+- LED_GREEN to GPIO11
+- LED_BLUE to GPIO9
+- button_green to GPIO13 and GND
+- button_red to GPIO19 and GND
+- DIP-Switches to GPIO2, GPIO3, GPIO4, GPIO17 and GND
+
 ## Cool ideas for the future:
 - User zero pi w to open a wifi hotspot and allow some kind of remote control
 - Add an i2c display
