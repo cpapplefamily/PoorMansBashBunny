@@ -6,6 +6,6 @@ ATTACKMODE HID
 keyboardLayout="DE"
 export keyboardLayout
 
-QUACK DELAY 5000
-QUACK STRING "i am 1"
+QUACK DELAY 6000
+QUACK STRING "i am 6"
 

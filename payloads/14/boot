@@ -7,5 +7,5 @@ keyboardLayout="DE"
 export keyboardLayout
 
 QUACK DELAY 5000
-QUACK STRING "i am 1"
+QUACK STRING "i am 14"
 

