@@ -15,7 +15,7 @@ For very little money (about 1/10th of the real BashBunny) you can make a clone 
 ## Images
 
 ![PoorMansBashBunny with RGB LED](https://raw.githubusercontent.com/schneebonus/PoorMansBashBunny/master/images/poorbunny.jpg)
-Image of my poorly soldered Bunny with Frankenstein-Resistor-Constructions (3 x 470 Ohm would be a better solution).
+Image of my poorly soldered Bunny with a Frankenstein-Resistor-Constructions (3 x 470 Ohm would be a better solution).
 Buttons and dip-switches are similar to the original project but I removed the two single-color leds and replaced them with one rgb led.
 
 ![Example usage of LED](https://raw.githubusercontent.com/schneebonus/PoorMansBashBunny/master/images/bashbunny_rickroll.png)
