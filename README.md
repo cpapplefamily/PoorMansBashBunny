@@ -39,6 +39,13 @@ Example usage of the LED command. It should support the bashbunny colors and mod
 - button_red to GPIO19 and GND
 - DIP-Switches to GPIO2, GPIO3, GPIO4, GPIO17 and GND
 
+## Install
+sudo su
+apt install -y git
+git clone https://github.com/x821938/PoorMansBashBunny.git /bunny
+cd /bunny
+./setup.sh
+
 ## Cool ideas for the future:
 - User zero pi w to open a wifi hotspot and allow some kind of remote control
 - Add an i2c display
