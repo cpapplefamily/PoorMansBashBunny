@@ -4,11 +4,22 @@ forked from x821938/PoorMansBashBunny
 
 All credits belong there!
 
-## Read about the original project here:
+The purpose of this fork is to get a better support of the bunny script language.
+
+## Read more about the original project here:
 
 Read all about the project at https://www.cron.dk/poor-mans-bash-bunny/
 
 For very little money (about 1/10th of the real BashBunny) you can make a clone with many of the same powerfull features.
+
+## Images
+
+![PoorMansBashBunny with RGB LED](https://raw.githubusercontent.com/schneebonus/PoorMansBashBunny/master/images/poorbunny.jpg)
+Image of my poorly soldered Bunny with Frankenstein-Resistor-Constructions (3 x 470 Ohm would be a better solution).
+Buttons and dip-switches are similar to the original project but I removed the two single-color leds and replaced them with one rgb led.
+
+![Example usage of LED](https://raw.githubusercontent.com/schneebonus/PoorMansBashBunny/master/images/bashbunny_rickroll.png)
+Example usage of the LED command. It should support the bashbunny colors and modes.
 
 ## Changes I made:
 - Changed GPIO-PINs
