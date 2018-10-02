@@ -19,7 +19,7 @@ chmod +x duckpi.sh
 
 # Create a mass storage device that can be used for target machine
 mkdir -p /bunny/storage
-dd if=/dev/zero of=/bunny/storage/system.img bs=1M count=128
+dd if=/dev/zero of=/bunny/storage/system.img bs=1M count=256
 mkdosfs /bunny/storage/system.img
 fatlabel /bunny/storage/system.img BUNNY
 mkdir -p /bunny/mnt
@@ -54,3 +54,8 @@ ln -s /bunny/bin/LED /usr/bin/LED
 ln -s /bunny/bin/QUACK /usr/bin/QUACK
 ln -s /bunny/bin/SYNC_PAYLOADS /usr/bin/SYNC_PAYLOADS
 ln -s /bunny/bin/WAIT_TARGET /usr/bin/WAIT_TARGET
+
+echo "alias Q=QUACK" >> ~/.bashrc
+
+
+
