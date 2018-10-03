@@ -12,16 +12,7 @@ Read all about the project at https://www.cron.dk/poor-mans-bash-bunny/
 
 For very little money (about 1/10th of the real BashBunny) you can make a clone with many of the same powerfull features.
 
-## Images
-
-![PoorMansBashBunny with RGB LED](https://raw.githubusercontent.com/schneebonus/PoorMansBashBunny/master/images/poorbunny.jpg)
-Image of my poorly soldered Bunny with a Frankenstein-Resistor-Constructions (3 x 470 Ohm would be a better solution).
-Buttons and dip-switches are similar to the original project but I removed the two single-color leds and replaced them with one rgb led.
-
-![Example usage of LED](https://raw.githubusercontent.com/schneebonus/PoorMansBashBunny/master/images/bashbunny_rickroll.png)
-Example usage of the LED command. It should support the bashbunny colors and modes.
-
-## Changes I made:
+## Changes I made in this fork:
 - Changed GPIO-PINs
 - RGB led instead of two single-color leds
 - Support for a RGB-LED (compatible to bash bunnys LED-command)
@@ -60,21 +51,29 @@ Example usage of the LED command. It should support the bashbunny colors and mod
 - User zero pi w to open a wifi hotspot and allow some kind of remote control
 - Add an i2c display
 
+## Images
+
+![PoorMansBashBunny with RGB LED](https://raw.githubusercontent.com/schneebonus/PoorMansBashBunny/master/images/poorbunny.jpg)
+Image of my poorly soldered Bunny with a Frankenstein-Resistor-Constructions (3 x 470 Ohm would be a better solution).
+Buttons and dip-switches are similar to the original project but I removed the two single-color leds and replaced them with one rgb led.
+
+
+
 ## PoorMansBashBunny vs real hak5 BashBunny:
 
 #### Features
 
 |   | pi zero w | bashbunny
 | ------------- | ------------- | ------------- |
-| Processor | 1GHz, single-core CPU | ... |
-| RAM | 512MB RAM | ... |
-| Storage | micro sd card | ... |
+| Processor | 1GHz, single-core CPU | ? GHz, quad-core CPU |
+| RAM | 512MB RAM | 512MB RAM |
+| Storage | micro sd card | desktop-class 8 GB SSD |
 | WiFi | Yes | No |
 | Bluetooth 4.0 | Yes | No |
 | free GPIOs | Yes | ? |
-| Support | I don't offer any support! | ... |
+| Support | I don't offer any support! | Yes |
 | Serious appearance | It's a lump soldered together | Nice and solid case |
-| Reliability | ... | It's a professional tool |
+| Reliability | It's a lump soldered together combined with some scripts | It's a professional tool |
 | Ducky Script Support | Yes | Yes |
 | Bunny Script Support | Partially | Yes |
 
@@ -93,5 +92,3 @@ PoorMansBashBunny:
 - might offer additional possibilities throuch wifi and bluetooth
 - GPIOs for extentions
 - **good for learning and building**
-
-
