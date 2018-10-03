@@ -30,6 +30,14 @@ Example usage of the LED command. It should support the bashbunny colors and mod
 - Set an alias Q=QUACK (for better bunnyscript support)
 - Started adding a german keyboard layout
 
+## Materials
+- Raspberry Pi Zero (Wifi)
+- Pi Zero USB Stem
+- DIP switch with 4 switches
+- 2 x Button
+- RGB-LED
+- 3 x 330R resistors (470R might work as well)
+
 ## GPIO-Layout:
 (specified in bin/bunny-launcher.py)
 - LED_RED with a 330 or 470 Ohm resistor to GPIO5 (I used two )
@@ -53,6 +61,9 @@ Example usage of the LED command. It should support the bashbunny colors and mod
 - Add an i2c display
 
 ## PoorMansBashBunny vs real hak5 BashBunny:
+
+#### Features
+
 |   | pi zero w | bashbunny
 | ------------- | ------------- | ------------- |
 | Processor | 1GHz, single-core CPU | ... |
@@ -67,7 +78,7 @@ Example usage of the LED command. It should support the bashbunny colors and mod
 | Ducky Script Support | Yes | Yes |
 | Bunny Script Support | Partially | Yes |
 
-### Conclusion
+#### Conclusion
 BashBunny:
 - Faster
   - shorter boot times
@@ -80,7 +91,7 @@ BashBunny:
 PoorMansBashBunny:
 - very cheap
 - might offer additional possibilities throuch wifi and bluetooth
-- GPIO for extentions
+- GPIOs for extentions
 - **good for learning and building**
 
 
