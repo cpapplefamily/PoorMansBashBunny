@@ -51,3 +51,12 @@ Example usage of the LED command. It should support the bashbunny colors and mod
 ## Cool ideas for the future:
 - User zero pi w to open a wifi hotspot and allow some kind of remote control
 - Add an i2c display
+
+## PoorMansBashBunny vs real hak5 bashbunny:
+|   | pi zero w | bashbunny
+| ------------- | ------------- | ------------- |
+| Processor | 1GHz, single-core CPU | ... |
+| RAM | 512MB RAM | ... |
+| Storage | micro sd card | ... |
+| Support | I don't offer any support! | ... |
+| Serious appearance | It's a lump soldered together | ... |
