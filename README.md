@@ -73,7 +73,7 @@ Buttons and dip-switches are similar to the original project but I removed the t
 | free GPIOs | Yes | ? |
 | Support | I don't offer any support! | Yes |
 | Serious appearance | It's a lump soldered together | Nice and solid case |
-| Reliability | It's a lump soldered together combined with some scripts | It's a professional tool |
+| Reliability | It's a lump soldered together and combined with some scripts | It's a professional tool |
 | Ducky Script Support | Yes | Yes |
 | Bunny Script Support | Partially | Yes |
 
