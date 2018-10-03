@@ -59,4 +59,7 @@ Example usage of the LED command. It should support the bashbunny colors and mod
 | RAM | 512MB RAM | ... |
 | Storage | micro sd card | ... |
 | Support | I don't offer any support! | ... |
-| Serious appearance | It's a lump soldered together | ... |
+| Serious appearance | It's a lump soldered together | Nice and solid case |
+| Reliability | ... | It's a professional tool |
+| Ducky Script Support | Yes | Yes |
+| Bunny Script Support | Partially | Yes |
