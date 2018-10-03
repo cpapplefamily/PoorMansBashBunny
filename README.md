@@ -52,14 +52,31 @@ Example usage of the LED command. It should support the bashbunny colors and mod
 - User zero pi w to open a wifi hotspot and allow some kind of remote control
 - Add an i2c display
 
-## PoorMansBashBunny vs real hak5 bashbunny:
+## PoorMansBashBunny vs real hak5 BashBunny:
 |   | pi zero w | bashbunny
 | ------------- | ------------- | ------------- |
 | Processor | 1GHz, single-core CPU | ... |
 | RAM | 512MB RAM | ... |
 | Storage | micro sd card | ... |
+| WiFi | Yes | No |
+| Bluetooth 4.0 | Yes | No |
 | Support | I don't offer any support! | ... |
 | Serious appearance | It's a lump soldered together | Nice and solid case |
 | Reliability | ... | It's a professional tool |
 | Ducky Script Support | Yes | Yes |
 | Bunny Script Support | Partially | Yes |
+
+### Conclusion
+BashBunny:
+- Faster
+  - shorter boot times
+  - faster attack
+- more reliable
+- better support
+- does not look suspicious
+- should be your choice for real pentests!
+
+PoorMansBashBunny:
+- very cheap
+- good for learning and building
+- might offer additional possibilities throuch wifi and bluetooth
