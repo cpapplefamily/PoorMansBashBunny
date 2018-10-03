@@ -32,9 +32,9 @@ Example usage of the LED command. It should support the bashbunny colors and mod
 
 ## GPIO-Layout:
 (specified in bin/bunny-launcher.py)
-- LED_RED to GPIO5
-- LED_GREEN to GPIO11
-- LED_BLUE to GPIO9
+- LED_RED with a 330 or 470 Ohm resistor to GPIO5
+- LED_GREEN with a 330 or 470 Ohm resistor to GPIO11
+- LED_BLUE with a 330 or 470 Ohm resistor to GPIO9
 - button_green to GPIO13 and GND
 - button_red to GPIO19 and GND
 - DIP-Switches to GPIO2, GPIO3, GPIO4, GPIO17 and GND
