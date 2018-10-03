@@ -60,6 +60,7 @@ Example usage of the LED command. It should support the bashbunny colors and mod
 | Storage | micro sd card | ... |
 | WiFi | Yes | No |
 | Bluetooth 4.0 | Yes | No |
+| free GPIOs | Yes | ? |
 | Support | I don't offer any support! | ... |
 | Serious appearance | It's a lump soldered together | Nice and solid case |
 | Reliability | ... | It's a professional tool |
@@ -74,9 +75,12 @@ BashBunny:
 - more reliable
 - better support
 - does not look suspicious
-- should be your choice for real pentests!
+- **should be your choice for real pentests!**
 
 PoorMansBashBunny:
 - very cheap
-- good for learning and building
 - might offer additional possibilities throuch wifi and bluetooth
+- GPIO for extentions
+- **good for learning and building**
+
+
