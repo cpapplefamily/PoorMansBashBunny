@@ -25,14 +25,14 @@ Example usage of the LED command. It should support the bashbunny colors and mod
 - Changed GPIO-PINs
 - RGB led instead of two single-color leds
 - Support for a RGB-LED (compatible to bash bunnys LED-command)
-- Added RUN command from hak5
+- Added RUN command from hak5 (still porting it)
 - Increased size of STORAGE to 256MB
 - Set an alias Q=QUACK (for better bunnyscript support)
 - Started adding a german keyboard layout
 
 ## GPIO-Layout:
 (specified in bin/bunny-launcher.py)
-- LED_RED with a 330 or 470 Ohm resistor to GPIO5
+- LED_RED with a 330 or 470 Ohm resistor to GPIO5 (I used two )
 - LED_GREEN with a 330 or 470 Ohm resistor to GPIO11
 - LED_BLUE with a 330 or 470 Ohm resistor to GPIO9
 - button_green to GPIO13 and GND
