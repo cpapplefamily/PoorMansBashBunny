@@ -1,6 +1,6 @@
 # Poor mans BashBunny with RGB-LED
 
-forked from x821938/PoorMansBashBunny
+forked from x821938/PoorMansBashBunny Then from morgulbrut/PoorMansBashBunny
 
 All credits belong there!
 
@@ -42,7 +42,8 @@ For very little money (about 1/10th of the real BashBunny) you can make a clone 
 ```
 > sudo su
 # apt install -y git
-# git clone https://github.com/x821938/PoorMansBashBunny.git /bunny
+~~# git clone https://github.com/x821938/PoorMansBashBunny.git /bunny~~
+# git clone https://github.com/cpapplefamily/PoorMansBashBunny /bunny
 # cd /bunny
 # ./setup.sh
 ```
